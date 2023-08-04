@@ -1,0 +1,14 @@
+
+ Index  Count  Time of first Occurrence    Time of last Occurrence     Exception SourceId ProbeId
+------+------+---------------------------+---------------------------+---------------------------
+     0      4 02/08/2023, 15:00:43:147 CEST 02/08/2023, 18:43:39:763 CEST java.lang.NoClassDefFoundError com.ibm.wsspi.injectionengine.MethodMap.getAllDeclaredMethods 106
+                                                                            - C:\myWork\Projects\guide-rest-intro\finish\target\liberty\wlp\usr\servers\defaultServer\logs\ffdc\ffdc_23.08.02_15.00.43.0.log
+                                                                            - C:\myWork\Projects\guide-rest-intro\finish\target\liberty\wlp\usr\servers\defaultServer\logs\ffdc\ffdc_23.08.02_18.43.39.0.log
+     1      4 02/08/2023, 15:00:43:240 CEST 02/08/2023, 18:43:39:845 CEST java.lang.NoClassDefFoundError com.ibm.ws.webcontainer.servlet.ServletWrapper.init 181
+                                                                            - C:\myWork\Projects\guide-rest-intro\finish\target\liberty\wlp\usr\servers\defaultServer\logs\ffdc\ffdc_23.08.02_15.00.43.1.log
+                                                                            - C:\myWork\Projects\guide-rest-intro\finish\target\liberty\wlp\usr\servers\defaultServer\logs\ffdc\ffdc_23.08.02_18.43.39.1.log
+     2      4 02/08/2023, 15:30:43:592 CEST 02/08/2023, 15:32:21:604 CEST java.lang.annotation.AnnotationFormatError com.ibm.ws.container.service.state.internal.ApplicationStateManager 56
+                                                                            - C:\myWork\Projects\guide-rest-intro\finish\target\liberty\wlp\usr\servers\defaultServer\logs\ffdc\ffdc_23.08.02_15.30.43.0.log
+     3      4 02/08/2023, 15:30:43:619 CEST 02/08/2023, 15:32:21:604 CEST com.ibm.ws.container.service.state.StateChangeException com.ibm.ws.app.manager.module.internal.SimpleDeployedAppInfoBase 550
+                                                                            - C:\myWork\Projects\guide-rest-intro\finish\target\liberty\wlp\usr\servers\defaultServer\logs\ffdc\ffdc_23.08.02_15.30.43.1.log
+------+------+---------------------------+---------------------------+---------------------------

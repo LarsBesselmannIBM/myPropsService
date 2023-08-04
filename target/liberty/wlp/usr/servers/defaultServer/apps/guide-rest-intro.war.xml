@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archive>
+    <dir sourceOnDisk="C:\myWork\Projects\guide-rest-intro\finish\src\main\webapp" targetInArchive="/"/>
+    <dir sourceOnDisk="C:\myWork\Projects\guide-rest-intro\finish\target\classes" targetInArchive="/WEB-INF/classes"/>
+    <file sourceOnDisk="C:\myWork\Projects\guide-rest-intro\finish\target\tmp\META-INF\MANIFEST.MF" targetInArchive="/META-INF/MANIFEST.MF"/>
+</archive>

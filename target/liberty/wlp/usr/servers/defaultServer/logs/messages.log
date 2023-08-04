@@ -1,0 +1,71 @@
+********************************************************************************
+product = Open Liberty 23.0.0.7 (wlp-1.0.79.cl230720230710-1201)
+wlp.install.dir = C:/myWork/Projects/guide-rest-intro/finish/target/liberty/wlp/
+java.home = C:\Program Files\Semeru\jdk-17.0.5.8-openj9
+java.version = 17.0.5
+java.runtime = IBM Semeru Runtime Open Edition (17.0.5+8)
+os = Windows 11 (10.0; amd64) (en_DE)
+process = 56836@IBM-PF38YV62
+Classpath = C:\myWork\Projects\guide-rest-intro\finish\target\liberty\wlp\bin\tools\ws-server.jar;C:\myWork\Projects\guide-rest-intro\finish\target\liberty\wlp\bin\tools\ws-javaagent.jar
+Java Library path = C:\Program Files\Semeru\jdk-17.0.5.8-openj9\bin\default;C:\Program Files\Semeru\jdk-17.0.5.8-openj9\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Semeru\jdk-17.0.5.8-openj9\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\RedHat\Podman\;C:\Program Files\Git\cmd;C:\Program Files\WireGuard\;C:\Users\096676724\AppData\Local\Microsoft\WindowsApps;C:\Users\096676724\AppData\Local\Programs\Microsoft VS Code\bin;C:\myData\programs\apache-maven-3.8.7\bin;;.
+********************************************************************************
+[04/08/2023, 11:29:39:411 CEST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: The server defaultServer has been launched.
+[04/08/2023, 11:29:41:327 CEST] 0000002b com.ibm.ws.config.xml.internal.ServerXMLConfiguration        A CWWKG0093A: Processing configuration drop-ins resource: C:\myWork\Projects\guide-rest-intro\finish\target\liberty\wlp\usr\servers\defaultServer\configDropins\overrides\liberty-plugin-variable-config.xml
+[04/08/2023, 11:29:41:461 CEST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 2,54 seconds
+[04/08/2023, 11:29:41:508 CEST] 00000037 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started.
+[04/08/2023, 11:29:42:292 CEST] 0000002d com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitoring dropins for applications.
+[04/08/2023, 11:29:48:375 CEST] 0000004e com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application guide-rest-intro.
+[04/08/2023, 11:29:48:376 CEST] 0000004e bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The guide-rest-intro application is using the loose application definition at the C:\myWork\Projects\guide-rest-intro\finish\target\liberty\wlp\usr\servers\defaultServer\apps\guide-rest-intro.war.xml location.
+[04/08/2023, 11:29:48:539 CEST] 0000004d com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: OpenAPIUI.
+[04/08/2023, 11:29:48:539 CEST] 0000004d com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module OpenAPIUI has been bound to default_host.
+[04/08/2023, 11:29:48:539 CEST] 0000004d com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://192.168.0.172:9080/openapi/ui/
+[04/08/2023, 11:29:48:556 CEST] 0000004c com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: MicroProfileOpenAPI.
+[04/08/2023, 11:29:48:556 CEST] 0000004c com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module MicroProfileOpenAPI has been bound to default_host.
+[04/08/2023, 11:29:48:557 CEST] 0000004c com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://192.168.0.172:9080/openapi/
+[04/08/2023, 11:29:48:584 CEST] 0000003a com.ibm.ws.session.WASSessionCore                            I SESN8501I: The session manager did not find a persistent storage location; HttpSession objects will be stored in the local application server's memory.
+[04/08/2023, 11:29:48:584 CEST] 00000039 com.ibm.ws.session.WASSessionCore                            I SESN8501I: The session manager did not find a persistent storage location; HttpSession objects will be stored in the local application server's memory.
+[04/08/2023, 11:29:48:586 CEST] 00000038 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/openapi
+[04/08/2023, 11:29:48:586 CEST] 00000039 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/openapi/ui
+[04/08/2023, 11:29:48:589 CEST] 00000038 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[04/08/2023, 11:29:48:591 CEST] 00000039 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[04/08/2023, 11:29:48:620 CEST] 00000038 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.openapi.2.0.internal.jakarta] [/openapi] [ApplicationServlet]: Initialization successful.
+[04/08/2023, 11:29:48:628 CEST] 0000004e org.jboss.weld.Version                                       I WELD-000900: 5.1.0 (Final)
+[04/08/2023, 11:29:49:728 CEST] 0000004e liberty.microprofile.openapi20.internal.ApplicationProcessor I CWWKO1660I: The application guide-rest-intro was processed and an OpenAPI document was produced.
+[04/08/2023, 11:29:49:733 CEST] 0000004e com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: Liberty Project.
+[04/08/2023, 11:29:49:733 CEST] 0000004e com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module Liberty Project has been bound to default_host.
+[04/08/2023, 11:29:49:734 CEST] 0000004e com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://192.168.0.172:9080/LibertyProject/
+[04/08/2023, 11:29:49:735 CEST] 0000003b com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/LibertyProject
+[04/08/2023, 11:29:49:736 CEST] 0000003b com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[04/08/2023, 11:29:49:749 CEST] 0000003b com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Application guide-rest-intro started in 1,373 seconds.
+[04/08/2023, 11:29:49:760 CEST] 00000037 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: TCP Channel defaultHttpEndpoint has been started and is now listening for requests on host *  (IPv6) port 9080.
+[04/08/2023, 11:29:49:776 CEST] 00000037 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: The server installed the following features: [cdi-4.0, jndi-1.0, jsonb-3.0, jsonp-2.1, mpConfig-3.0, mpOpenAPI-3.1, restfulWS-3.1, restfulWSClient-3.1].
+[04/08/2023, 11:29:49:777 CEST] 00000037 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Feature update completed in 8,302 seconds.
+[04/08/2023, 11:29:49:778 CEST] 00000037 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: The defaultServer server is ready to run a smarter planet. The defaultServer server started in 10,844 seconds.
+[04/08/2023, 11:29:50:018 CEST] 0000003b org.jboss.resteasy.resteasy_jaxrs.i18n                       I RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class io.openliberty.guides.rest.myApplication$Proxy$_$$_WeldClientProxy
+[04/08/2023, 11:29:50:032 CEST] 0000003b com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [guide-rest-intro] [/LibertyProject] [io.openliberty.guides.rest.myApplication]: Initialization successful.
+[04/08/2023, 11:29:52:470 CEST] 00000043 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://192.168.0.172:9080/LibertyProject/
+[04/08/2023, 11:29:52:470 CEST] 00000043 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [guide-rest-intro] [/LibertyProject] [io.openliberty.guides.rest.myApplication]: Destroy successful.
+[04/08/2023, 11:29:52:486 CEST] 00000043 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application guide-rest-intro has stopped successfully.
+[04/08/2023, 11:29:52:492 CEST] 00000043 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application guide-rest-intro.
+[04/08/2023, 11:29:52:493 CEST] 00000043 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The guide-rest-intro application is using the loose application definition at the C:\myWork\Projects\guide-rest-intro\finish\target\liberty\wlp\usr\servers\defaultServer\apps\guide-rest-intro.war.xml location.
+[04/08/2023, 11:29:52:746 CEST] 00000043 liberty.microprofile.openapi20.internal.ApplicationProcessor I CWWKO1660I: The application guide-rest-intro was processed and an OpenAPI document was produced.
+[04/08/2023, 11:29:52:761 CEST] 00000043 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: Liberty Project.
+[04/08/2023, 11:29:52:761 CEST] 00000043 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module Liberty Project has been bound to default_host.
+[04/08/2023, 11:29:52:761 CEST] 00000043 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://192.168.0.172:9080/LibertyProject/
+[04/08/2023, 11:29:52:761 CEST] 0000004e com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/LibertyProject
+[04/08/2023, 11:29:52:761 CEST] 0000004e com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[04/08/2023, 11:29:52:771 CEST] 0000004e com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application guide-rest-intro updated in 0,277 seconds.
+[04/08/2023, 11:29:52:886 CEST] 0000004e org.jboss.resteasy.resteasy_jaxrs.i18n                       I RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class io.openliberty.guides.rest.myApplication$Proxy$_$$_WeldClientProxy
+[04/08/2023, 11:29:52:889 CEST] 0000004e com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [guide-rest-intro] [/LibertyProject] [io.openliberty.guides.rest.myApplication]: Initialization successful.
+[04/08/2023, 11:29:53:572 CEST] 0000003a com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at C:\myWork\Projects\guide-rest-intro\finish\target\liberty\wlp\usr\servers\defaultServer\logs\state\plugin-cfg.xml.
+[04/08/2023, 11:56:03:679 CEST] 00000027 com.ibm.ws.kernel.launch.internal.ServerCommandListener      A CWWKE0055I: Server shutdown requested on Friday, 4 August 2023 at 11:56. The server defaultServer is shutting down.
+[04/08/2023, 11:56:03:684 CEST] 000003a8 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  A CWWKE1100I: Waiting for up to 30 seconds for the server to quiesce.
+[04/08/2023, 11:56:03:914 CEST] 00000283 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: TCP Channel defaultHttpEndpoint has stopped listening for requests on host *  (IPv6) port 9080.
+[04/08/2023, 11:56:03:915 CEST] 00000283 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://192.168.0.172:9080/openapi/ui/
+[04/08/2023, 11:56:03:915 CEST] 00000283 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://192.168.0.172:9080/LibertyProject/
+[04/08/2023, 11:56:03:915 CEST] 00000283 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://192.168.0.172:9080/openapi/
+[04/08/2023, 11:56:04:924 CEST] 000003a8 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1101I: Server quiesce complete.
+[04/08/2023, 11:56:04:935 CEST] 000001cf com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [guide-rest-intro] [/LibertyProject] [io.openliberty.guides.rest.myApplication]: Destroy successful.
+[04/08/2023, 11:56:04:941 CEST] 000001cf com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application guide-rest-intro has stopped successfully.
+[04/08/2023, 11:56:04:953 CEST] 000003a8 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [io.openliberty.microprofile.openapi.2.0.internal.jakarta] [/openapi] [ApplicationServlet]: Destroy successful.
+[04/08/2023, 11:56:08:694 CEST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: The server defaultServer stopped after 26 minutes, 29,759 seconds.
